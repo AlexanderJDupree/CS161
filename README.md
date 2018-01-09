@@ -7,5 +7,5 @@ my multiple machines. My programs and coursework are not to be used in replaceme
 students work. 
 
 Everyone is more than welcome to look at my code and implement my logic into their programs.
-However, it is recommended that students try to figure out solutions for their problemsby themselves first.
+However, it is recommended that students try to figure out solutions for their problems by themselves first.
 DO NOT copy and paste my programs and turn it in as your own work.
