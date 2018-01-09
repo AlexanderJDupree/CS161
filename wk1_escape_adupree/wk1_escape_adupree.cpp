@@ -12,11 +12,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Our greatest weakness lies in giving up.\n"
+    cout << "\"Our greatest weakness lies in giving up.\n"
          << "The most certain way to success is\n"
-         << "to\ttry\tjust\tone\tmore\ttime.\n\n"
+         << "to\ttry\tjust\tone\tmore\ttime.\"\n\n"
          << "Thomas A. Edison\n\n"
-         << "https://www.breainyquote.com/\n"
+         << "https://www.brainyquote.com/\n"
          << endl;
     return 0;
 }
