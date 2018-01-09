@@ -12,13 +12,19 @@ using namespace std;
 
 int main()
 {
-    cout << " XXX           XXX\n"
-         << "XXXX XXXXXXXXX XXXX\n"
-         << "to\ttry\tjust\tone\tmore\ttime.\n\n"
-         << "Thomas A. Edison\n\n"
-         << "https://www.breainyquote.com/\n"
+    cout << "\t  /\\__\n"
+         << " .--.----'  - \\\n"
+         << "/    )    \\___/\n"
+         << "|  '------.___)\n"
+         << "`---------`"
          << endl;
     return 0;
 }
 
-/* Needs special ascii art with three different charracters and stuff */
+/* Expected output:
+          /\__
+ .--.----'  - \
+/    )    \___/
+|  '------.___)
+`---------`
+*/
