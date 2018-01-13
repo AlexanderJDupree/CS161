@@ -7,11 +7,22 @@ nano .bashrc //modifies file
 
 source ~/.bashrc // reads the bash file and its functions
 
-
-function lazygit() {
-    git add .
-    git commit -a -m "$1"
-    git push
-}
+Lazygit bash function usage: lazygit "message"
+	function lazygit() {
+    		git add .
+    		git commit -a -m "$1"
+    		git push
+	}
 
 export -f lazygit
+
+nano ~/HelloWorld.sh // Creates Hello World bash script, opens in nano editor
+		    // ~/ refers to home directory
+HelloWorld.sh:
+	#!/bin/bash
+	STRING="Hello World"	
+	echo $STRING
+
+chmod +x ~/HelloWorld.sh //Makes the file executable
+
+~/HelloWorld.sh //executes file, ./HelloWorld.sh if its in CWD
