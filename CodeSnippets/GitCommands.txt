@@ -1,0 +1,17 @@
+copy > ~/.bashrc // creates the bashrc on windows
+nano .bashrc //modifies file
+	function hello() {
+		echo "Hello, $1!"
+	} 
+	export -f hello // creates hello world function
+
+source ~/.bashrc // reads the bash file and its functions
+
+
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+export -f lazygit
