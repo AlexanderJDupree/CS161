@@ -26,3 +26,5 @@ HelloWorld.sh:
 chmod +x ~/HelloWorld.sh //Makes the file executable
 
 ~/HelloWorld.sh //executes file, ./HelloWorld.sh if its in CWD
+
+alias df="df -h" //creates alias for human readble df command
