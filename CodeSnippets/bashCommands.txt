@@ -28,3 +28,21 @@ chmod +x ~/HelloWorld.sh //Makes the file executable
 ~/HelloWorld.sh //executes file, ./HelloWorld.sh if its in CWD
 
 alias df="df -h" //creates alias for human readble df command
+
+
+function size() { // lists the size of all files and total size of directory
+	du -h $1 | sort -n
+	du -hcs $1
+}
+
+export -f size
+
+function up() { // goes up n directories
+	LIMIT=$1
+	P=$PWD
+	for ((i=1; i <= LIMIT; i++))
+	do 
+		P=$P/..
+	done
+	cd $P
+}
