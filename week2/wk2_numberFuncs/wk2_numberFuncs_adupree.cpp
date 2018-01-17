@@ -19,7 +19,7 @@ class MathFunctions
     float num1,
           num2;
 public:
-    // constructor creates prompter object and sets member variables to 0
+    // default constructor sets member variables to 0
     MathFunctions() {num1 = 0; num2 = 0;};
 
     void setValues(string, int);
@@ -115,6 +115,7 @@ int main()
                 {"Enter an integer to find the sine of:", 1},
                 {"Enter a floating point number, positive or negative:", 1}});
 
+    // loop through userPrompt list and set values for each MathFunctions object
     for (int i=0; i < userPrompt.size(); i++)
     {
         mathFunction[i].setValues(userPrompt[i].first, userPrompt[i].second);
