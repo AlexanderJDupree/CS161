@@ -4,7 +4,7 @@
 * Author: Alexander DuPree                                           *
 * Date: 1/23/2018                                                    *
 * Compiler: Code::Blocks17.12                                        *
-* Modifications:                                                     *
+* Modifications: Test commit                                         *
 *********************************************************************/
 
 #include <iostream>
