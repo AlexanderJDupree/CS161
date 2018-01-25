@@ -1,9 +1,9 @@
 /*********************************************************************
 * File: wk3_pairProgram.cpp                                          *
-* Description: Tells user what grade they're in college              *
-* Author: Alexander DuPree, Lawrence Scroggs                         *
-* Date: 1/23/2018                                                    *
-* Compiler: GNU CC Compiler                                          *
+* Description: Program outputs average monthly water bill            *
+* Author: Alexander DuPree                                           *
+* Date: 1/24/2018                                                    *
+* Compiler: GNU GCC Compiler                                         *
 * Modifications:                                                     *
 *********************************************************************/
 
@@ -16,19 +16,23 @@ using namespace std;
 void intro()
 {
     cout << "This program will tell you how you are doing with your "
-         << "water usage" << endl;
+         << "water usage\n" << endl;
+    return;
 }
 
 void getInput(float &quarter, char number)
 {
-    cout << "\nPlease input your water bill for quarter " << number << ":  ";
+    cout << "Please input your water bill for quarter " << number << ":  ";
     cin >> quarter;
     return;
 }
 
 void displayBill(float averageBill, string message)
 {
-    cout << "You're average monthly bil is " << averageBill << endl;
+    cout << "You're average monthly bill is " << setprecision(2)
+         << fixed << averageBill << endl;
+    cout << message << endl;
+    return;
 }
 
 float calculateAverage(float q1, float q2, float q3, float q4)
@@ -61,15 +65,15 @@ int main()
 
         if (averageBill > 75)
         {
-            displayBill(averageBill, "You're using too much water")
+            displayBill(averageBill, "You're using too much water");
         }
         else if (averageBill > 25 and  averageBill <= 75)
         {
-            displayBill(averageBill, "You're doing good")
+            displayBill(averageBill, "You're doing good");
         }
         else
         {
-            displayBill(averageBill, "Good job conserving water!")
+            displayBill(averageBill, "Good job conserving water!");
         }
     }
 
