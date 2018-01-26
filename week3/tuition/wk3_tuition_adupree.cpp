@@ -11,8 +11,6 @@
 #include <iomanip>
 #include <string>
 
-#define LOG(x) cout << x << endl;
-
 using namespace std;
 
 /* I haven't been separating my classes into their own header and .cpp
@@ -62,7 +60,6 @@ void StudentTuition::setTuition(bool status)
 
 void StudentTuition::setHousing(bool status)
 {
-    LOG(status)
     if (tuition == 3000) // if student is state resident, tuition = 3000
     {
         if (status)
@@ -79,7 +76,7 @@ void StudentTuition::setHousing(bool status)
         if (status)
         {
             return; // we don't change housing value because it is already
-                    // set our out of state students.
+                    // set for out of state students.
         }
         else
         {
