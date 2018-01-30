@@ -15,4 +15,3 @@ int Teller::getTotalDaysMissed()
 {
     return m_year1 + m_year2 + m_year3;
 }
-

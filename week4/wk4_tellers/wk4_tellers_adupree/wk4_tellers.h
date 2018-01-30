@@ -20,6 +20,7 @@ public:
     // Constructor assigns integer arguments to corresponding member variable
 
     int getTotalDaysMissed();
+    // adds together the missed days of each year and returns that total.
 
 private:
 

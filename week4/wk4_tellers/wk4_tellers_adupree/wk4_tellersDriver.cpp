@@ -22,8 +22,8 @@ void getDaysMissedPerYear(int &year1, int &year2, int &year3, int tellerNumber);
 // modifies value of days of missed work for years 1 - 3.
 
 int getInput(string prompt, string errorMessage, int _max, int _min);
-// returns integer within exclusive range of min & max. Continues to
-// ask for valid input.
+// Prints prompt to user, grabs input from user, attempts to return integer
+// after checking the input was within the exclusive min/max range.
 
 int calculateTotalSickDays(vector<Teller> tellers);
 // returns total number of sick days used from all tellers in the Teller vector.
