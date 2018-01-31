@@ -13,8 +13,6 @@
 #include <string>
 #include <sstream>
 
-#define LOG(x) std::cout << x << std::endl;
-
 using namespace std;
 
 void intro();
@@ -103,7 +101,7 @@ void displaySurveyResults(vector<pair<string, int>> &surveyChoices)
     cout << "\n\tSURVEY RESULTS" << endl;
     cout << "\nBeverage    Number of Votes" << endl;
     cout << "******************************" << endl;
-    // loop through surveyChoices vector and print the key and its value.
+    // loop through surveyChoices vector and prints the key and its value.
     for (auto& choice : surveyChoices)
     {
         cout << setw(16) << left <<choice.first;
