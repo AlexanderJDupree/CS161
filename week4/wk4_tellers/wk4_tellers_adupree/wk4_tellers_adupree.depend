@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1517349517 source:/home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellers.cpp
+1517355935 source:/home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellers.cpp
 	"wk4_tellers.h"
 
-1517349367 /home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellers.h
+1517355912 /home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellers.h
 
-1517353718 source:/home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellersDriver.cpp
+1517356059 source:/home/chaos2022/Desktop/CS161/week4/wk4_tellers/wk4_tellers_adupree/wk4_tellersDriver.cpp
 	<iostream>
 	<string>
 	<sstream>
