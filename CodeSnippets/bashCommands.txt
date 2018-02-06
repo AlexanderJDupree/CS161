@@ -46,3 +46,15 @@ function up() { // goes up n directories
 	done
 	cd $P
 }
+
+sudo netstat -tulpn //lists status and ip address of all open ports
+
+di -sh ~/directory // displays how much data specified directory is using
+
+sytemctl status udev 
+service udev status //shows current running services
+
+top // massive cpu usage table
+htop // better tbale of usage
+
+
