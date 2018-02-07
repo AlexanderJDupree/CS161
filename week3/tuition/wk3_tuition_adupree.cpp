@@ -62,7 +62,7 @@ void StudentTuition::setHousing(bool status)
 {
     if (status) // if student is state resident, tuition = 3000
     {
-        if (tuition = 3000)
+        if (tuition == 3000)
         {
             housing = 2500;
         }
