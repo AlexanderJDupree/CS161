@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1518067053 source:c:\users\dupre\desktop\cs161\week5\wk5_testscores_adupree\testscores_adupree.cpp
+	"testscores_adupree.h"
+
+1518069222 c:\users\dupre\desktop\cs161\week5\wk5_testscores_adupree\testscores_adupree.h
+
+1518069222 source:c:\users\dupre\desktop\cs161\week5\wk5_testscores_adupree\testscores_driver_adupree.cpp
+	<iostream>
+	<iomanip>
+	<sstream>
+	<string>
+	"testscores_adupree.h"
+
