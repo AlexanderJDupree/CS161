@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1519430630 source:c:\users\dupre\desktop\cs161\mastermind game\mastermind\mastermind.cpp
+	"MasterMind.h"
+
+1519430630 c:\users\dupre\desktop\cs161\mastermind game\mastermind\mastermind.h
+	<string>
+
