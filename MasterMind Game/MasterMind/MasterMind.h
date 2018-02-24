@@ -3,36 +3,46 @@
 
 
 ******************************************************************************/
-
 #ifndef GAME_H
 #define GAME_H
 
 #include <string>
+#include <map>
 
-//class Game
-//{
-//public:
-//
-//    Game(); //alex constructor
-//
-//    // guessStatus will check and return how many hits and near hits the guess had.
-//
-//    //getters
-//
-//    //setters
-//      // increment m_attempts;
-//
-//private:
-//
-//    static const int m_maxTries = 5;
-//
-//    unsigned int m_attempts;
-//
-//    static const string m_solution = "rggb";
-//
-//    bool m_isGameWon;
-//
-//};
+struct HitSummary
+{
+    unsigned int hits;
+    unsigned int nearHits;
+};
+
+class Game
+{
+public:
+
+    Game(); // constructor
+
+    HitSummary guessStatus(std::string guess);
+
+    std::map<char, bool> createSolutionTable(std::string solution);
+
+    //getters
+
+    //setters
+      // increment m_attempts;
+
+private:
+
+    static const int m_maxTries = 5;
+
+    unsigned int m_attempts;
+
+    std::string m_solution;
+
+    std::map<char, bool> m_solutionTable;
+
+    bool m_isGameWon;
+
+};
 
 
 #endif // GAME_H
