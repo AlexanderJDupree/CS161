@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1519250920 source:c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver.cpp
+1519668072 source:c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver.cpp
 	"wk7_sandyRiver.h"
 
-1519251590 c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver.h
+1519668074 c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver.h
+	<string>
 
-1519250970 source:c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver_driver.cpp
+1519668205 source:c:\users\dupre\desktop\cs161\week7\wk7_sandyriver\wk7_sandyriver_driver.cpp
 	<iostream>
 	"wk7_sandyRiver.h"
 

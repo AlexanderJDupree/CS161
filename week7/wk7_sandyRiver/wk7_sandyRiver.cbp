@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="wk7_sandyRiver.cpp" />
+		<Unit filename="wk7_sandyRiver.h" />
+		<Unit filename="wk7_sandyRiver_driver.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
