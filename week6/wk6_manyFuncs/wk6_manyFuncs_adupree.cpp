@@ -16,6 +16,7 @@ using namespace std;
 void instructions();
 void displayPoweredInt(int PoweredInt, int base, int power);
 void alphaStrings(string string1, string string2);
+// receives the users strings and prints them out in alphabetical order
 void repeatChar(char symbol, int base);
 // uses a for loop to print a symbol 'base' times on the same line. Buffers
 // output with a newline at the start and end of function.
@@ -23,18 +24,19 @@ void resetInputStream();
 //resets failure state and discards bad characters on any input that failed.
 
 int poweredInteger(int base, int power);
-// returns calculated base to the nth power
+// returns calculated base to the nth power.
 
 string getInput(string prompt);
 // overloaded getInput function allows us to handle input for just strings
 // with no data validation.`
 
 template <class T> T getInput(string prompt, string errorMessage, int _min);
-// Use of a template class here so the getInput function can return either a
-// character or an integer and perform data validation for each.
+// Use of a template so the getInput function can return either a character or
+//  an integer and perform data validation for each.
 template <class T> bool isValidInput(string errorMessage, T userInput, int _min);
-// isValidInput is called within the getInput function, checks if input is in
-// failed state and userInput is above the minimum value.
+// isValidInput is called within the getInput function, if input stream is in a
+// failed state or the input value was less than _min, function calls
+// resetInputStream() and returns false. Otherwise, returns true.
 
 int main()
 {
