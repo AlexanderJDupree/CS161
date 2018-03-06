@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\dupre\desktop\cs161\week7\wk7_floortiles\main.cpp
+	<iostream>
+
+1519167516 source:c:\users\dupre\desktop\cs161\week7\wk7_floortiles\wk7_floortiles.cpp
+	<cmath>
+	"wk7_floorTiles.h"
+
+1519166076 c:\users\dupre\desktop\cs161\week7\wk7_floortiles\wk7_floortiles.h
+
+1519167758 source:c:\users\dupre\desktop\cs161\week7\wk7_floortiles\wk7_floortiles_driver.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	"wk7_floorTiles.h"
+
+1519751084 source:c:\users\f14\desktop\cs161\week7\wk7_floortiles\wk7_floortiles_driver.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	"wk7_floorTiles.h"
+
+1519751084 c:\users\f14\desktop\cs161\week7\wk7_floortiles\wk7_floortiles.h
+
+1519751084 source:c:\users\f14\desktop\cs161\week7\wk7_floortiles\wk7_floortiles.cpp
+	<cmath>
+	"wk7_floorTiles.h"
+
