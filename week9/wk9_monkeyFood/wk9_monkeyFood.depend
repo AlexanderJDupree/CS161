@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1520385914 source:c:\users\dupre\desktop\cs161\week9\wk9_monkeyfood\src\monkey.cpp
+	"Monkey.h"
+
+1520386916 c:\users\dupre\desktop\cs161\week9\wk9_monkeyfood\include\monkey.h
+	<string>
+
+1520386640 source:c:\users\dupre\desktop\cs161\week9\wk9_monkeyfood\monkeyfooddriver.cpp
+	<iostream>
+	<iomanip>
+	"Monkey.h"
+
