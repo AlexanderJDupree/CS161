@@ -10,7 +10,7 @@ void getFoodData(Monkey monkeys[], const int SIZE);
 void displayData(Monkey monkeys[], const int SIZE);
 void displayExtrema(Monkey monkeys[], int least, int most);
 string createPrompt(int index);
-// For use in getInput(), creates the prompt with the correct day of the week.
+// For use in getInput(), creates the prompt with the correct day of the week.6
 int findLeast(Monkey monkeys[], const int SIZE);
 // Finds the index for the monkey who ate the least, returns index.
 int findMost(Monkey monkeys[], const int SIZE);
@@ -30,8 +30,15 @@ int main()
     intro();
 
     Monkey monkeys[SIZE];
+    // I know the assignment specifically asks for use of a 3 x 7 2d array,
+    // but each object contains a int[7] array so in essence this monkeys
+    // class array is a 2d array. However, because they are class objects I can
+    // implement great functionality like being able to keep track of the total
+    // food ate and the low/high days.
 
     getNames(monkeys, SIZE);
+    // Since I had the monkeys as class objects, I thought why not name the
+    // monkeys for extra challenge.
     getFoodData(monkeys, SIZE);
 
     least = findLeast(monkeys, SIZE);
@@ -83,6 +90,7 @@ void getFoodData(Monkey monkeys[], const int SIZE)
 void displayData(Monkey monkeys[], const int SIZE)
 {
     int foodPerDay[DAYS] = {0};
+    // Declare int array to keep track of food eaten per day by all monkeys.
     int total = 0;
 
     cout << "\n\t\tM\tT\tW\tTr\tF\tS\tSu\tTOTAL" << endl;
