@@ -48,7 +48,7 @@ void Random::RandArray::shuffle(int ara[])
     return;
 }
 
-void Random::randomize(int ara[], const int VALUE_MAX, const int SIZE)
+void Random::Randomize(int ara[], const int VALUE_MAX, const int SIZE)
 {
     Random::RandArray randArray(SIZE);
     randArray.fillUnique(ara, VALUE_MAX);

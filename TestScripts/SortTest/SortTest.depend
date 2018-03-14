@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1521008510 source:c:\users\dupre\desktop\testscripts\sorttest\src\randarray.cpp
+	<cstdlib>
+	<ctime>
+	<set>
+	"RandArray.h"
+
+1521008448 c:\users\dupre\desktop\testscripts\sorttest\include\randarray.h
+
+1521009533 source:c:\users\dupre\desktop\testscripts\sorttest\src\customsort.cpp
+	"CustomSort.h"
+
+1521008713 c:\users\dupre\desktop\testscripts\sorttest\include\customsort.h
+
+1521008969 source:c:\users\dupre\desktop\testscripts\sorttest\main.cpp
+	<iostream>
+	"RandArray.h"
+	"CustomSort.h"
+

@@ -26,7 +26,7 @@ namespace Random
         unsigned int m_size;
     };
 
-    void randomize(int ara[], const int VALUE_MAX, const int SIZE);
+    void Randomize(int ara[], const int VALUE_MAX, const int SIZE);
 
 }
 

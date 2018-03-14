@@ -11,7 +11,7 @@ int main()
 
     int ara[SIZE];
 
-    Random::Randomize(ara, VALUE_MAX, SIZE);
+    Random::randomize(ara, VALUE_MAX, SIZE);
     printArray(ara, SIZE, "Unsorted Array");
 
     Custom::sortArray(ara, VALUE_MAX, SIZE);
