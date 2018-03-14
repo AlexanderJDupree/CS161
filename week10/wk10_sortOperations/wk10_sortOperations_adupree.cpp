@@ -1,22 +1,15 @@
-/*********************************************************************
-* File: wk3_tshirts_adupree.cpp                                      *
-* Description: Tells user how many X shirts cost                     *
-* Author: Alexander DuPree                                           *
-* Date: 1/25/2018                                                    *
-* Compiler: GNU CC Compiler                                          *
-* Modifications:                                                     *
-*********************************************************************/
+/******************************************************************************
+* File: wk10_sortOperations_adupree.cpp
+* Description: Performs three different types of array sorting, and displays
+               number of operations conducted.
+* Author: Alexander DuPree
+* Date: 3/13/2018
+* Compiler: GNU CC Compiler 5.4.0
+* Modifications:
+******************************************************************************/
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 
-#define LOG(x) std::cout << x << std::endl;
-
-using std::cout;
-using std::endl;
-
-void fillRandAra(int ara[]);
 void copyAra(const int permAra[], int ara[]);
 void bubbleSort(int ara[], int n, int& counter);
 // implemented recursively
@@ -61,17 +54,6 @@ int main()
 
     return 0;
 }
-
-void fillRandAra(int ara[])
-{
-    srand(time(NULL));
-    for (int i = 0; i < SIZE; i++)
-    {
-        ara[i] = rand() % 100;
-    }
-    return;
-}
-
 
 void copyAra(const int permAra[], int ara[])
 {
