@@ -1,19 +1,19 @@
 # depslib dependency file v1.0
-1521006006 source:c:\users\dupre\desktop\cs161\week10\wk10_customsort\main.cpp
+1521007040 source:c:\users\dupre\desktop\cs161\week10\wk10_customsort\main.cpp
 	<iostream>
 	"RandArray.h"
 	"CustomSort.h"
 
-1521005983 source:c:\users\dupre\desktop\cs161\week10\wk10_customsort\src\randarray.cpp
+1521007036 source:c:\users\dupre\desktop\cs161\week10\wk10_customsort\src\randarray.cpp
 	<cstdlib>
 	<ctime>
 	<set>
 	"RandArray.h"
 
-1521005811 c:\users\dupre\desktop\cs161\week10\wk10_customsort\include\randarray.h
+1521059575 c:\users\dupre\desktop\cs161\week10\wk10_customsort\include\randarray.h
 
 1521005344 source:c:\users\dupre\desktop\cs161\week10\wk10_customsort\src\customsort.cpp
 	"CustomSort.h"
 
-1521006706 c:\users\dupre\desktop\cs161\week10\wk10_customsort\include\customsort.h
+1521059582 c:\users\dupre\desktop\cs161\week10\wk10_customsort\include\customsort.h
 

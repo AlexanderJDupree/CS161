@@ -1,3 +1,13 @@
+/******************************************************************************
+* File: wk10_sortOperations_adupree.cpp
+* Description: Generates an array of positive unique random integers and then
+               Uses a newly developed "Custom" sort algorithm to sort it.
+* Author: Alexander DuPree
+* Date: 3/14/2018
+* Compiler: GNU CC Compiler 5.4.0
+* Modifications:
+******************************************************************************/
+
 #include <iostream>
 #include "RandArray.h"
 #include "CustomSort.h"

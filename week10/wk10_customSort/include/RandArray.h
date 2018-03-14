@@ -1,3 +1,12 @@
+/******************************************************************************
+* RandArray class purpose is to generate an array of random unique positive
+* integers from 0 - n. It utilizes a set container to achieve this, and then
+* Shuffles the array. RandArray utilizes name space Random to further abstract
+* Its functions from the user. The user just has to call Random::randomize()
+* to generate a set of unique random positive integers.
+******************************************************************************/
+
+
 #ifndef RANDARRAY_H
 #define RANDARRAY_H
 
@@ -27,7 +36,10 @@ namespace Random
     };
 
     void randomize(int ara[], const int VALUE_MAX, const int SIZE);
-
+    // randomize is to be called by the user in main, requires an array, the
+    // desired highest value, and the size of the array. Randomize will then
+    // use the methods in the RandArray class to generate a list of unique,
+    // random integers.
 }
 
 #endif // RANDARRAY_H
