@@ -34,9 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CustomSort_driver.cpp" />
 		<Unit filename="include/CustomSort.h" />
 		<Unit filename="include/RandArray.h" />
-		<Unit filename="main.cpp" />
 		<Unit filename="src/CustomSort.cpp" />
 		<Unit filename="src/RandArray.cpp" />
 		<Extensions>

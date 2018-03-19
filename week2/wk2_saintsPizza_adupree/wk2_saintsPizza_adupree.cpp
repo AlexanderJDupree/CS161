@@ -20,7 +20,7 @@
 using namespace std;
 
 void intro();
-void displayResults(const int, const vector<pair<string, int>>);
+void displayResults(const int, const vector<pair<string, int> >);
 int getPizzaSoldBySize(const string);
 bool isValidNum(const string);
 
@@ -29,7 +29,7 @@ int main()
     int totalSold;
 
     //Vector of pairs to be used as an out parameter for grabbing input
-    vector<pair<string, int>> pizzasSoldBySize({{"Small", 0}, {"Medium", 0}, {"Large", 0},
+    vector<pair<string, int> > pizzasSoldBySize({{"Small", 0}, {"Medium", 0}, {"Large", 0},
                                         {"Family", 0}});
 
     intro();
