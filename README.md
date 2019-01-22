@@ -1,11 +1,8 @@
 # CS161
 
-Coursework and programs for CS161 at Mt. Hood Community College.
+Coursework and programs for CS161.
 
-This repository is designed to make all programs and coursework easily accessible across
-my multiple machines. My programs and coursework are not to be used in replacement for other 
-students work. 
-
-Everyone is more than welcome to look at my code and implement my logic into their programs.
-However, it is recommended that students try to figure out solutions for their problems by themselves first.
-DO NOT copy and paste my programs and turn it in as your own work.
+This repo serves multiple purposes: version control and backups for convenience,
+as well as provide for myself a full accounting of my work such that I can revise,
+review, and critique it at a later time. This repo is not to be used as a source of
+plagarism for other students in their studies. 
